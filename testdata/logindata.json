@@ -1,20 +1,20 @@
 [
   {
     "testName": "Valid login",
-    "email": "pavanol@abc.com",
-    "password": "test@123",
+    "email": "Filterdemo@gmail.com",
+    "password": "123456",
     "expected": "success"
   },
   {
     "testName": "Invalid login",
-    "email": "abcxyz@xyz.com",
+    "email": "Filterdemo@gmail.com",
     "password": "abcxyx",
     "expected": "failure"
   },
     {
     "testName": "Invalid loginpassword",
     "email": "abcxyz@xyz.com",
-    "password": "abcxyx",
+    "password": "123456",
     "expected": "failure"
   }
 ]
