@@ -1,0 +1,4 @@
+Exception occurred while clicking 'My Account': Error: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('span:has-text("My Account")')
+
