@@ -1,13 +1,13 @@
 export class TestConfig{
  
-    //appUrl="http://localhost/opencart/upload/"
+   // appUrl="http://localhost/opencart/upload/"
     //appUrl="https://naveenautomationlabs.com/opencart"
     appUrl="https://tutorialsninja.com/demo/"
     
   
     //valid login credentials
-    email="Filterdemo.com"
-    password="123456"
+    email="soniz@gmail.com"
+    password="123456@"
 
     //product details
     productName="MacBook"
