@@ -46,8 +46,8 @@ test('User login test @master @sanity @regression',async()=>{
     await homePage.clickLogin();
 
     //Enter valid credentials and log in
-    await loginPage.setEmail(config.email);//access form config.ts
-    await loginPage.setPassword(config.password);  //access form config.ts
+    await loginPage.setEmail(config.email);
+    await loginPage.setPassword(config.password);
     await loginPage.clickLogin();
 
     //alternatevly

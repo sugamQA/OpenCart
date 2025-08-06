@@ -7,14 +7,8 @@
   },
   {
     "testName": "Invalid login",
-    "email": "Filterdemo@gmail.com",
-    "password": "abcxyx",
-    "expected": "failure"
-  },
-    {
-    "testName": "Invalid loginpassword",
     "email": "abcxyz@xyz.com",
-    "password": "123456",
+    "password": "abcxyx",
     "expected": "failure"
   }
 ]

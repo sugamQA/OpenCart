@@ -1,1 +1,1 @@
-[{"data":{"run":1,"retry":2}}]
+[{"buildOrder":3,"reportUrl":"http://localhost:8080/job/OpenCart-Local/3/allure","reportName":"AllureReport","data":{"run":15,"retry":251}}]

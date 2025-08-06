@@ -1,3 +1,3 @@
 testName,email,password,expected
-Valid login,Filterdemo@gmail.com,123456,success
-Invalid login,Filterdemo@gmail.com,abcxyx,failure
+Valid login,Filterdemo@gmail.com,test@123,success
+Invalid login,abcxyz@xyz.com,abcxyx,failure

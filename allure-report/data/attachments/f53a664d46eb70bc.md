@@ -1,0 +1,231 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - button "$ Currency ":
+    - strong: $
+    - text: Currency 
+  - list:
+    - listitem:
+      - link "":
+        - /url: https://tutorialsninja.com/demo/index.php?route=information/contact
+      - text: "123456789"
+    - listitem:
+      - link " My Account":
+        - /url: https://tutorialsninja.com/demo/index.php?route=account/account
+    - listitem:
+      - link " Wish List (0)":
+        - /url: https://tutorialsninja.com/demo/index.php?route=account/wishlist
+    - listitem:
+      - link " Shopping Cart":
+        - /url: https://tutorialsninja.com/demo/index.php?route=checkout/cart
+    - listitem:
+      - link " Checkout":
+        - /url: https://tutorialsninja.com/demo/index.php?route=checkout/checkout
+- banner:
+  - heading "Qafox.com" [level=1]:
+    - link "Qafox.com":
+      - /url: https://tutorialsninja.com/demo/index.php?route=common/home
+  - textbox "Search": MacBook
+  - button ""
+  - button " 0 item(s) - $0.00"
+- navigation:
+  - list:
+    - listitem:
+      - link "Desktops":
+        - /url: https://tutorialsninja.com/demo/index.php?route=product/category&path=20
+    - listitem:
+      - link "Laptops & Notebooks":
+        - /url: https://tutorialsninja.com/demo/index.php?route=product/category&path=18
+    - listitem:
+      - link "Components":
+        - /url: https://tutorialsninja.com/demo/index.php?route=product/category&path=25
+    - listitem:
+      - link "Tablets":
+        - /url: https://tutorialsninja.com/demo/index.php?route=product/category&path=57
+    - listitem:
+      - link "Software":
+        - /url: https://tutorialsninja.com/demo/index.php?route=product/category&path=17
+    - listitem:
+      - link "Phones & PDAs":
+        - /url: https://tutorialsninja.com/demo/index.php?route=product/category&path=24
+    - listitem:
+      - link "Cameras":
+        - /url: https://tutorialsninja.com/demo/index.php?route=product/category&path=33
+    - listitem:
+      - link "MP3 Players":
+        - /url: https://tutorialsninja.com/demo/index.php?route=product/category&path=34
+- list:
+  - listitem:
+    - link "":
+      - /url: https://tutorialsninja.com/demo/index.php?route=common/home
+  - listitem:
+    - link "Search":
+      - /url: https://tutorialsninja.com/demo/index.php?route=product/search&search=MacBook
+- heading "Search - MacBook" [level=1]
+- text: Search Criteria
+- textbox "Search Criteria": MacBook
+- combobox:
+  - option "All Categories" [selected]
+  - option "Desktops"
+  - option "PC"
+  - option "Mac"
+  - option "Laptops & Notebooks"
+  - option "Macs"
+  - option "Windows"
+  - option "Components"
+  - option "Mice and Trackballs"
+  - option "Monitors"
+  - option "test 1"
+  - option "test 2"
+  - option "Printers"
+  - option "Scanners"
+  - option "Web Cameras"
+  - option "Tablets"
+  - option "Software"
+  - option "Phones & PDAs"
+  - option "Cameras"
+  - option "MP3 Players"
+  - option "test 11"
+  - option "test 12"
+  - option "test 15"
+  - option "test 16"
+  - option "test 17"
+  - option "test 18"
+  - option "test 19"
+  - option "test 20"
+  - option "test 25"
+  - option "test 21"
+  - option "test 22"
+  - option "test 23"
+  - option "test 24"
+  - option "test 4"
+  - option "test 5"
+  - option "test 6"
+  - option "test 7"
+  - option "test 8"
+  - option "test 9"
+- checkbox "Search in subcategories" [disabled]
+- text: Search in subcategories
+- paragraph:
+  - checkbox "Search in product descriptions"
+  - text: Search in product descriptions
+- button "Search"
+- heading "Products meeting the search criteria" [level=2]
+- button ""
+- button ""
+- link "Product Compare (0)":
+  - /url: https://tutorialsninja.com/demo/index.php?route=product/compare
+- text: "Sort By:"
+- combobox "Sort By:":
+  - option "Default" [selected]
+  - option "Name (A - Z)"
+  - option "Name (Z - A)"
+  - option "Price (Low > High)"
+  - option "Price (High > Low)"
+  - option "Rating (Highest)"
+  - option "Rating (Lowest)"
+  - option "Model (A - Z)"
+  - option "Model (Z - A)"
+- text: "Show:"
+- combobox "Show:":
+  - option "20" [selected]
+  - option "25"
+  - option "50"
+  - option "75"
+  - option "100"
+- link "MacBook":
+  - /url: https://tutorialsninja.com/demo/index.php?route=product/product&product_id=43&search=MacBook
+  - img "MacBook"
+- heading "MacBook" [level=4]:
+  - link "MacBook":
+    - /url: https://tutorialsninja.com/demo/index.php?route=product/product&product_id=43&search=MacBook
+- paragraph: Intel Core 2 Duo processor Powered by an Intel Core 2 Duo processor at speeds up to 2.16GHz, t..
+- paragraph: $602.00 Ex Tax:$500.00
+- button " Add to Cart"
+- button ""
+- button ""
+- link "MacBook Air":
+  - /url: https://tutorialsninja.com/demo/index.php?route=product/product&product_id=44&search=MacBook
+  - img "MacBook Air"
+- heading "MacBook Air" [level=4]:
+  - link "MacBook Air":
+    - /url: https://tutorialsninja.com/demo/index.php?route=product/product&product_id=44&search=MacBook
+- paragraph: MacBook Air is ultrathin, ultraportable, and ultra unlike anything else. But you don’t lose in..
+- paragraph: $1,202.00 Ex Tax:$1,000.00
+- button " Add to Cart"
+- button ""
+- button ""
+- link "MacBook Pro":
+  - /url: https://tutorialsninja.com/demo/index.php?route=product/product&product_id=45&search=MacBook
+  - img "MacBook Pro"
+- heading "MacBook Pro" [level=4]:
+  - link "MacBook Pro":
+    - /url: https://tutorialsninja.com/demo/index.php?route=product/product&product_id=45&search=MacBook
+- paragraph: Latest Intel mobile architecture Powered by the most advanced mobile processors from Intel, ..
+- paragraph: $2,000.00 Ex Tax:$2,000.00
+- button " Add to Cart"
+- button ""
+- button ""
+- text: Showing 1 to 3 of 3 (1 Pages)
+- contentinfo:
+  - heading "Information" [level=5]
+  - list:
+    - listitem:
+      - link "About Us":
+        - /url: https://tutorialsninja.com/demo/index.php?route=information/information&information_id=4
+    - listitem:
+      - link "Delivery Information":
+        - /url: https://tutorialsninja.com/demo/index.php?route=information/information&information_id=6
+    - listitem:
+      - link "Privacy Policy":
+        - /url: https://tutorialsninja.com/demo/index.php?route=information/information&information_id=3
+    - listitem:
+      - link "Terms & Conditions":
+        - /url: https://tutorialsninja.com/demo/index.php?route=information/information&information_id=5
+  - heading "Customer Service" [level=5]
+  - list:
+    - listitem:
+      - link "Contact Us":
+        - /url: https://tutorialsninja.com/demo/index.php?route=information/contact
+    - listitem:
+      - link "Returns":
+        - /url: https://tutorialsninja.com/demo/index.php?route=account/return/add
+    - listitem:
+      - link "Site Map":
+        - /url: https://tutorialsninja.com/demo/index.php?route=information/sitemap
+  - heading "Extras" [level=5]
+  - list:
+    - listitem:
+      - link "Brands":
+        - /url: https://tutorialsninja.com/demo/index.php?route=product/manufacturer
+    - listitem:
+      - link "Gift Certificates":
+        - /url: https://tutorialsninja.com/demo/index.php?route=account/voucher
+    - listitem:
+      - link "Affiliate":
+        - /url: https://tutorialsninja.com/demo/index.php?route=affiliate/login
+    - listitem:
+      - link "Specials":
+        - /url: https://tutorialsninja.com/demo/index.php?route=product/special
+  - heading "My Account" [level=5]
+  - list:
+    - listitem:
+      - link "My Account":
+        - /url: https://tutorialsninja.com/demo/index.php?route=account/account
+    - listitem:
+      - link "Order History":
+        - /url: https://tutorialsninja.com/demo/index.php?route=account/order
+    - listitem:
+      - link "Wish List":
+        - /url: https://tutorialsninja.com/demo/index.php?route=account/wishlist
+    - listitem:
+      - link "Newsletter":
+        - /url: https://tutorialsninja.com/demo/index.php?route=account/newsletter
+  - separator
+  - paragraph:
+    - text: Powered By
+    - link "OpenCart":
+      - /url: http://www.opencart.com
+    - text: Qafox.com © 2025
+```

@@ -7,12 +7,12 @@ export default defineConfig({
   //retries: process.env.CI ? 2 : 0,
   retries:1,
   //workers: process.env.CI ? 1 : undefined,
-   workers: 5,
+ // workers: 1,
 
   reporter: [
     ['html'],
     ['allure-playwright'],
-    ['dot'],
+    //['dot'],
     ['list']
   ],
 

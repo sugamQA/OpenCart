@@ -3,7 +3,7 @@
  * 
  * Tags: @master @sanity @regression
  * 
- * Steps: TestCases
+ * Steps:
  * 1) Navigate to application URL 
  * 2) Go to 'My Account' and click 'Register'
  * 3) Fill in registration details with random data
@@ -46,7 +46,7 @@ test('User registration test @master @sanity @regression', async () => {
     await homePage.clickRegister();
 
     //Fill in registration details with random data
-    await registrationPage.setFirstName(RandomDataUtil.getFirstName());   //access getFirstname form utils random
+    await registrationPage.setFirstName(RandomDataUtil.getFirstName());
     await registrationPage.setLastName(RandomDataUtil.getlastName());
     await registrationPage.setEmail(RandomDataUtil.getEmail());
     await registrationPage.setTelephone(RandomDataUtil.getPhoneNumber());

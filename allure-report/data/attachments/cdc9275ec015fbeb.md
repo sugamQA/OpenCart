@@ -1,0 +1,172 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - button "$ Currency ":
+    - strong: $
+    - text: Currency 
+  - list:
+    - listitem:
+      - link "":
+        - /url: http://localhost/opencart/upload/index.php?route=information/contact
+      - text: "123456789"
+    - listitem:
+      - link " My Account":
+        - /url: http://localhost/opencart/upload/index.php?route=account/account
+    - listitem:
+      - link " Wish List (0)":
+        - /url: http://localhost/opencart/upload/index.php?route=account/wishlist
+    - listitem:
+      - link " Shopping Cart":
+        - /url: http://localhost/opencart/upload/index.php?route=checkout/cart
+    - listitem:
+      - link " Checkout":
+        - /url: http://localhost/opencart/upload/index.php?route=checkout/checkout
+- banner:
+  - link "Your Store":
+    - /url: http://localhost/opencart/upload/index.php?route=common/home
+    - img "Your Store"
+  - textbox "Search"
+  - button ""
+  - button " 0 item(s) - $0.00"
+- navigation:
+  - list:
+    - listitem:
+      - link "Desktops":
+        - /url: http://localhost/opencart/upload/index.php?route=product/category&path=20
+    - listitem:
+      - link "Laptops & Notebooks":
+        - /url: http://localhost/opencart/upload/index.php?route=product/category&path=18
+    - listitem:
+      - link "Components":
+        - /url: http://localhost/opencart/upload/index.php?route=product/category&path=25
+    - listitem:
+      - link "Tablets":
+        - /url: http://localhost/opencart/upload/index.php?route=product/category&path=57
+    - listitem:
+      - link "Software":
+        - /url: http://localhost/opencart/upload/index.php?route=product/category&path=17
+    - listitem:
+      - link "Phones & PDAs":
+        - /url: http://localhost/opencart/upload/index.php?route=product/category&path=24
+    - listitem:
+      - link "Cameras":
+        - /url: http://localhost/opencart/upload/index.php?route=product/category&path=33
+    - listitem:
+      - link "MP3 Players":
+        - /url: http://localhost/opencart/upload/index.php?route=product/category&path=34
+- list:
+  - listitem:
+    - link "":
+      - /url: http://localhost/opencart/upload/index.php?route=common/home
+  - listitem:
+    - link "Account":
+      - /url: http://localhost/opencart/upload/index.php?route=account/account
+  - listitem:
+    - link "Login":
+      - /url: http://localhost/opencart/upload/index.php?route=account/login
+- text: " Warning: No match for E-Mail Address and/or Password."
+- heading "New Customer" [level=2]
+- paragraph:
+  - strong: Register Account
+- paragraph: By creating an account you will be able to shop faster, be up to date on an order's status, and keep track of the orders you have previously made.
+- link "Continue":
+  - /url: http://localhost/opencart/upload/index.php?route=account/register
+- heading "Returning Customer" [level=2]
+- paragraph:
+  - strong: I am a returning customer
+- text: E-Mail Address
+- textbox "E-Mail Address": abcxyz@xyz.com
+- text: Password
+- textbox "Password": abcxyx
+- link "Forgotten Password":
+  - /url: http://localhost/opencart/upload/index.php?route=account/forgotten
+- button "Login"
+- complementary:
+  - link "Login":
+    - /url: http://localhost/opencart/upload/index.php?route=account/login
+  - link "Register":
+    - /url: http://localhost/opencart/upload/index.php?route=account/register
+  - link "Forgotten Password":
+    - /url: http://localhost/opencart/upload/index.php?route=account/forgotten
+  - link "My Account":
+    - /url: http://localhost/opencart/upload/index.php?route=account/account
+  - link "Address Book":
+    - /url: http://localhost/opencart/upload/index.php?route=account/address
+  - link "Wish List":
+    - /url: http://localhost/opencart/upload/index.php?route=account/wishlist
+  - link "Order History":
+    - /url: http://localhost/opencart/upload/index.php?route=account/order
+  - link "Downloads":
+    - /url: http://localhost/opencart/upload/index.php?route=account/download
+  - link "Recurring payments":
+    - /url: http://localhost/opencart/upload/index.php?route=account/recurring
+  - link "Reward Points":
+    - /url: http://localhost/opencart/upload/index.php?route=account/reward
+  - link "Returns":
+    - /url: http://localhost/opencart/upload/index.php?route=account/return
+  - link "Transactions":
+    - /url: http://localhost/opencart/upload/index.php?route=account/transaction
+  - link "Newsletter":
+    - /url: http://localhost/opencart/upload/index.php?route=account/newsletter
+- contentinfo:
+  - heading "Information" [level=5]
+  - list:
+    - listitem:
+      - link "About Us":
+        - /url: http://localhost/opencart/upload/index.php?route=information/information&information_id=4
+    - listitem:
+      - link "Delivery Information":
+        - /url: http://localhost/opencart/upload/index.php?route=information/information&information_id=6
+    - listitem:
+      - link "Privacy Policy":
+        - /url: http://localhost/opencart/upload/index.php?route=information/information&information_id=3
+    - listitem:
+      - link "Terms & Conditions":
+        - /url: http://localhost/opencart/upload/index.php?route=information/information&information_id=5
+  - heading "Customer Service" [level=5]
+  - list:
+    - listitem:
+      - link "Contact Us":
+        - /url: http://localhost/opencart/upload/index.php?route=information/contact
+    - listitem:
+      - link "Returns":
+        - /url: http://localhost/opencart/upload/index.php?route=account/return/add
+    - listitem:
+      - link "Site Map":
+        - /url: http://localhost/opencart/upload/index.php?route=information/sitemap
+  - heading "Extras" [level=5]
+  - list:
+    - listitem:
+      - link "Brands":
+        - /url: http://localhost/opencart/upload/index.php?route=product/manufacturer
+    - listitem:
+      - link "Gift Certificates":
+        - /url: http://localhost/opencart/upload/index.php?route=account/voucher
+    - listitem:
+      - link "Affiliate":
+        - /url: http://localhost/opencart/upload/index.php?route=affiliate/login
+    - listitem:
+      - link "Specials":
+        - /url: http://localhost/opencart/upload/index.php?route=product/special
+  - heading "My Account" [level=5]
+  - list:
+    - listitem:
+      - link "My Account":
+        - /url: http://localhost/opencart/upload/index.php?route=account/account
+    - listitem:
+      - link "Order History":
+        - /url: http://localhost/opencart/upload/index.php?route=account/order
+    - listitem:
+      - link "Wish List":
+        - /url: http://localhost/opencart/upload/index.php?route=account/wishlist
+    - listitem:
+      - link "Newsletter":
+        - /url: http://localhost/opencart/upload/index.php?route=account/newsletter
+  - separator
+  - paragraph:
+    - text: Powered By
+    - link "OpenCart":
+      - /url: http://www.opencart.com
+    - text: Your Store © 2025
+```

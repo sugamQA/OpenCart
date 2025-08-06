@@ -3,18 +3,18 @@ import { ProductPage } from './ProductPage'; // Import ProductPage if needed
 
 export class SearchResultsPage {
     private readonly page: Page;
-
+    
     // Locators using CSS selectors
     private readonly searchPageHeader: Locator;
     private readonly searchProducts: Locator;
 
     constructor(page: Page) {
         this.page = page;
-
+        
         // Initialize locators with CSS selectors
         this.searchPageHeader = page.locator('#content h1');
         this.searchProducts = page.locator('h4>a');
-
+        
     }
 
     /**
@@ -40,8 +40,8 @@ export class SearchResultsPage {
             const count = await this.searchProducts.count();
             for (let i = 0; i < count; i++) {
                 const product = this.searchProducts.nth(i);
-                const title = await product.textContent();
-                if (title === productName) {
+                 const title = await product.textContent();
+                 if (title === productName) {
                     return true;
                 }
             }
@@ -70,7 +70,7 @@ export class SearchResultsPage {
             console.log(`Product not found: ${productName}`);
         } catch (error) {
             console.log(`Error selecting product: ${error}`);
-                 }
+        }
         return null;
     }
 

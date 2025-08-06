@@ -103,7 +103,7 @@ export class RegistrationPage {
      * Complete registration workflow
      * @param userData - Object containing registration data
      */
-    async completeRegistration(userData: {      //vsariable userData
+    async completeRegistration(userData: {
         firstName: string;
         lastName: string;
         email: string;
