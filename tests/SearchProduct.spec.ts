@@ -46,6 +46,6 @@ test('Product search test @master @regression', async () => {
   expect(await searchResultsPage.isSearchResultsPageExists()).toBeTruthy();
 
   // Step 5: Validate if the searched product appears in results
-  const isProductFound = await searchResultsPage.isProductExist(productName);
+  const isProductFound = await searchResultsPage.isProductExist(productName);   //cha vane yo config vitra ko product
   expect(isProductFound).toBeTruthy();
 });
